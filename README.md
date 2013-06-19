@@ -16,6 +16,10 @@ Kaya runs on ruby 1.9.2. We strongly advice rvm for ruby management.
 On top of that, you will need redis. 
 
       In ubuntu : sudo-apt get install redis-server. 
+      
+Then run it with
+
+      redis-server
 
 To run, you will need to install all the gems in the .gems file. Respect the versions, as kaya has some old non-backward compatible gems.(Particularly ohm) 
 

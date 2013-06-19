@@ -16,7 +16,7 @@ Kaya runs on ruby 1.9.2. We strongly advice rvm for ruby management.
 On top of that, you will need redis. 
 
       In ubuntu : sudo-apt get install redis-server. 
-      
+
 Then run it with
 
       redis-server
@@ -31,3 +31,7 @@ Then run
 Go to
 
       http://localhost:9292
+
+Run tests with
+
+      cutest test/*

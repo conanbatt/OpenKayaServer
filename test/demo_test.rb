@@ -10,7 +10,7 @@ setup do
 end
 
 test "Testing users are created" do 
-  us = User.create(:nickname => "hola", :rating => -5.5, :email => "hola@hola.com")
+  us = User.create(:nickname => "hola", :rating => -5.5, :email => "hola@hola.com", :account => "founder")
 
   assert User[us.id]
 
